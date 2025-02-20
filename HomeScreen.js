@@ -90,10 +90,10 @@ const HomeScreen = ({ route }) => {
 
 const styles = StyleSheet.create({
   container: { flex: 1, padding: 20, backgroundColor: '#f8f9fa' },
-  title: { fontSize: 24, fontWeight: 'bold', textAlign: 'center', marginBottom: 10 },
+  title: { fontSize: 34, fontWeight: 'bold', textAlign: 'center', marginBottom: 10 ,color:'purple'},
   input: { borderWidth: 1, borderColor: '#ccc', padding: 8, marginBottom: 10, borderRadius: 5 },
-  taskContainer: { flexDirection: 'row', justifyContent: 'space-between', padding: 10, marginVertical: 5, backgroundColor: '#fff', borderRadius: 5, elevation: 2 },
-  taskText: { fontSize: 16 },
+  taskContainer: { flexDirection: 'row', justifyContent: 'space-between', padding: 5, marginVertical: 5, backgroundColor: '#fff', borderRadius: 5, elevation: 2},
+  taskText: { fontSize: 30},
   buttonContainer: { flexDirection: 'row' },
   editButton: { color: 'blue', marginRight: 10 },
   deleteButton: { color: 'red' }
